@@ -41,3 +41,10 @@
  * the built-in default routes.
  */
 	require CAKE . 'Config' . DS . 'routes.php';
+
+/**
+* REST way to make api
+*/
+
+	// Router::mapResources('users');
+	// Router::parseExtensions();
